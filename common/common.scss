@@ -1,16 +1,3 @@
-.topic-list-item {
-  display: flex;
-  align-items: flex-start;
-}
-
-.topic-list-before-status {
-  width: 90px;
-  min-width: 90px;
-  display: flex;
-  justify-content: center;
-  margin-right: 12px;
-}
-
 .topic-list-voting {
   width: 84px;
 }
@@ -22,11 +9,4 @@
 .topic-list-voting .vote-button {
   width: 84px;
   box-sizing: border-box;
-}
-
-.main-link,
-.topic-list-data,
-.link-top-line,
-.link-bottom-line {
-  min-width: 0;
 }
