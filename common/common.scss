@@ -1,8 +1,22 @@
 .topic-list-voting {
-  width: 60px;
+  width: 90px;
+  min-width: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 8px;
 }
 
 .topic-list-voting .vote-box {
-  transform: scale(0.8);
-  transform-origin: top left;
+  width: 84px;
+  transform: none;
+}
+
+.topic-list-voting .vote-button {
+  width: 84px;
+  box-sizing: border-box;
+}
+
+.topic-list-item {
+  align-items: flex-start;
 }
