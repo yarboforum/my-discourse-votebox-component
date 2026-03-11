@@ -1,0 +1,8 @@
+{{#if @outletArgs.topic.can_vote}}
+  <div class="topic-list-voting">
+    <VoteBox
+      @topic={{@outletArgs.topic}}
+      @showLogin={{routeAction "showLogin"}}
+    />
+  </div>
+{{/if}}
