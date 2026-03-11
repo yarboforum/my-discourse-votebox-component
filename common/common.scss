@@ -1,15 +1,22 @@
-.topic-list-voting {
+.topic-list-item {
+  display: flex;
+  align-items: flex-start;
+}
+
+.topic-list-before-status {
   width: 90px;
   min-width: 90px;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  padding-top: 8px;
+  margin-right: 12px;
+}
+
+.topic-list-voting {
+  width: 84px;
 }
 
 .topic-list-voting .vote-box {
   width: 84px;
-  transform: none;
 }
 
 .topic-list-voting .vote-button {
@@ -17,6 +24,9 @@
   box-sizing: border-box;
 }
 
-.topic-list-item {
-  align-items: flex-start;
+.main-link,
+.topic-list-data,
+.link-top-line,
+.link-bottom-line {
+  min-width: 0;
 }
